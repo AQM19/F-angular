@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col">
+        <div style="display: block">
+            <canvas baseChart 
+                class="chart" 
+                [data]="barChartData" 
+                [options]="barChartOptions" 
+                [type]="barChartType"
+                >
+            </canvas>
+        </div>
+        <button mat-button mat-raised-button color="primary btn btn-primary float-end" (click)="randomize()">
+            Actualizar
+        </button>
+    </div>
+</div>
